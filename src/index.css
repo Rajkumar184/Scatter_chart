@@ -16,5 +16,33 @@ body {
 
 .page-bg-selector {
   background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-  color: #fff; 
+  color: #fff;
+  min-height: 100vh; 
+  /* width: 100%; */
+  margin: 0; 
+  padding: 0; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  overflow: hidden;
+}
+
+.ant-notification-notice-message, .ant-notification-close-icon{
+  color: #fff !important;
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
+
+.ant-notification-notice-close{
+  top: 9px !important;
+  right: 9px !important;
+}
+
+
+.ant-notification {
+  color: #fff;
+}
+
+.ant-notification-notice-message {
+  color: #fff !important;
 }
